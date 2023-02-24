@@ -1,0 +1,13 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+    
+    <utility
+        name="cs.ratelimit.properties"
+        component=".components.RateLimitPropertiesFactory"
+        />
+    
+    <utility
+        name="cs.ratelimit.configured_properties"
+        component=".components.ConfigRateLimitPropertiesFactory"
+        />
+
+</configure>
