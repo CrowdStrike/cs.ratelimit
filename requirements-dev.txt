@@ -12,7 +12,7 @@ coverage==7.2.7
     # via cs.ratelimit (setup.py)
 dill==0.3.7
     # via pylint
-flake8==6.0.0
+flake8==6.1.0
     # via cs.ratelimit (setup.py)
 gitdb==4.0.10
     # via gitpython
