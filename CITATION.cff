@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: 'cs.ratelimit: A threadsafe configurable rate limiter for Python callables'
+message: >-
+  If you use this software, and wish to cite the origins,
+  please use metadata from this file.
+type: software
+authors:
+  - given-names:
+    family-names: CrowdStrike
+    email: oss@crowdstrike.com
+  - given-names: Dave
+    family-names: Davis
+    affiliation: CrowdStrike
+repository-code: 'https://github.com/CrowdStrike/cs.ratelimit'
+repository-artifact: 'https://pypi.org/project/cs-ratelimit/'
+abstract: >-
+  The cs.ratelimit package provides a rate limiter for any Python callable that
+  can be configured via code or YAML and optionally wired together using the
+  Zope Component Architecture.
+keywords:
+  - crowdstrike
+  - ratelimit
+  - zope
+  - python
+  - windows
+  - linux
+  - mac license: MIT
