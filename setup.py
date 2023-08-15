@@ -1,3 +1,13 @@
+"""
+                      _       _ _           _ _
+  ___ ___   _ __ __ _| |_ ___| (_)_ __ ___ (_) |_
+ / __/ __| | '__/ _` | __/ _ \ | | '_ ` _ \| | __|
+| (__\__ \_| | | (_| | ||  __/ | | | | | | | | |_
+ \___|___(_)_|  \__,_|\__\___|_|_|_| |_| |_|_|\__|
+
+setup.py - PyPI packaging utility for cs.ratelimit
+"""
+
 from setuptools import setup, find_packages
 
 version = '1.3.0'
@@ -28,9 +38,9 @@ setup(name='cs.ratelimit',
       long_description=long_description,
       long_description_content_type='text/markdown',
       classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers',
-        'Natural Language :: English',
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "Natural Language :: English",
         "Operating System :: Unix",
         "Operating System :: POSIX",
         "Operating System :: POSIX :: Linux",
@@ -44,11 +54,11 @@ setup(name='cs.ratelimit',
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
-        'Framework :: Zope'
-        'Framework :: Flake8'
-        'License :: OSI Approved :: MIT License',
-        'Topic :: Software Development :: Libraries :: Python Modules',
-        'Topic :: Utilities',
+        "Framework :: Zope",
+        "Framework :: Flake8",
+        "License :: OSI Approved :: MIT License",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Utilities",
       ],
       author='David Davis',
       author_email='david.davis@crowdstrike.com',
