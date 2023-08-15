@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up latest stable Python version
       uses: actions/setup-python@v4
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.x'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -28,6 +28,6 @@ jobs:
     - name: Lint package source with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        flake8 cs/ratelimit --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 cs/ratelimit --count --max-line-length=127 --select=E9,F63,F7,F82 --show-source --statistics
         # stop the build on all linting errors
-        flake8 cs/ratelimit --count --statistics
+        flake8 cs/ratelimit --count --max-line-length=127 --statistics

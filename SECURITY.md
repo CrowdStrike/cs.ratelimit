@@ -12,16 +12,15 @@ This document outlines security policy and procedures for the CrowdStrike `cs.ra
 
 cs.ratelimit supports the following versions of Python.
 
-| Version | Supported |
-| :------- | :--------: |
-| 3.11.x  | ![Yes](https://img.shields.io/badge/-YES-green) |
-| 3.10.x  | ![Yes](https://img.shields.io/badge/-YES-green) |
-| 3.9.x   | ![Yes](https://img.shields.io/badge/-YES-green) |
-| 3.8.x   | ![Yes](https://img.shields.io/badge/-YES-green) |
-| 3.7.x   | ![Yes](https://img.shields.io/badge/-YES-green) |
-| 3.6.x   | ![Yes](https://img.shields.io/badge/-YES-green) |
-| <= 3.5  | ![No](https://img.shields.io/badge/-NO-red) |
-| <= 2.x.x | ![No](https://img.shields.io/badge/-NO-red) |
+| Version   | Supported  |
+| :-------- | :--------: |
+| 3.12.x    | ![Yes](https://img.shields.io/badge/-YES-green) |
+| 3.11.x    | ![Yes](https://img.shields.io/badge/-YES-green) |
+| 3.10.x    | ![Yes](https://img.shields.io/badge/-YES-green) |
+| 3.9.x     | ![Yes](https://img.shields.io/badge/-YES-green) |
+| 3.8.x     | ![Yes](https://img.shields.io/badge/-YES-green) |
+| <= 3.7.x  | ![No](https://img.shields.io/badge/-NO-red) |
+| <= 2.x.x  | ![No](https://img.shields.io/badge/-NO-red) |
 
 ## Supported cs.ratelimit versions
 

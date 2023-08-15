@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 def ratelimited(**kwargs):
-    """Threadsafe decorator to limit rate of Python callable for unbound functions.
+    """Threadsafe decorator to limit rate of Python callables for unbound functions.
 
     max_count, interval, and block may be adjusted at runtime safely.  Default
     initialization values do not limit call rate.  If either max_count
