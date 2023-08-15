@@ -23,7 +23,7 @@ def _instanceis(classinfo, obj):
 
 
 class IRateLimiterState(IReadMapping):  # pylint: disable=too-many-ancestors
-    """A mapping containing keys.
+    """A mapping containing keys for mutable internal rate limiter state.
 
     'updated': value is a datetime.datetime representing the last time the
                counter was updated
