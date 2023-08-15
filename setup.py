@@ -10,7 +10,7 @@ setup.py - PyPI packaging utility for cs.ratelimit
 
 from setuptools import setup, find_packages
 
-version = '1.3.0'
+version = '0.1.1.dev1'
 
 
 tests_require = [
@@ -38,7 +38,7 @@ setup(name='cs.ratelimit',
       long_description=long_description,
       long_description_content_type='text/markdown',
       classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Natural Language :: English",
         "Operating System :: Unix",
