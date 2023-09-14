@@ -84,7 +84,7 @@ zope-schema==7.0.1
     # via
     #   cs.ratelimit (setup.py)
     #   zope-configuration
-zope-testrunner==6.0
+zope-testrunner==6.1
     # via cs.ratelimit (setup.py)
 
 # The following packages are considered to be unsafe in a requirements file:
