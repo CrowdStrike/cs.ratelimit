@@ -12,7 +12,7 @@ zope-event==5.0
     #   zope-schema
 zope-hookable==5.4
     # via zope-component
-zope-interface==6.0
+zope-interface==6.1
     # via
     #   cs.ratelimit (setup.py)
     #   zope-component
