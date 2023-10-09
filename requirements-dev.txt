@@ -70,7 +70,7 @@ zope-exceptions==5.0.1
     # via zope-testrunner
 zope-hookable==5.4
     # via zope-component
-zope-i18nmessageid==6.0.1
+zope-i18nmessageid==6.1.0
     # via zope-configuration
 zope-interface==6.0
     # via
