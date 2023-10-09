@@ -68,7 +68,7 @@ zope-event==5.0
     #   zope-schema
 zope-exceptions==5.0.1
     # via zope-testrunner
-zope-hookable==5.4
+zope-hookable==6.0
     # via zope-component
 zope-i18nmessageid==6.0.1
     # via zope-configuration
