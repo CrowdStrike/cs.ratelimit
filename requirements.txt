@@ -10,7 +10,7 @@ zope-event==5.0
     # via
     #   zope-component
     #   zope-schema
-zope-hookable==5.4
+zope-hookable==6.0
     # via zope-component
 zope-interface==6.0
     # via
